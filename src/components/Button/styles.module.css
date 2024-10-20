@@ -1,0 +1,25 @@
+.primary {
+  background-color: #fff;
+  color: #000;
+  border-radius: 0.875rem;
+  padding: 1.25rem 2.188rem;
+  font-size: var(--font-size-h4);
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.secondary {
+  background-color: #000;
+  color: #fff;
+  border-radius: 0.875rem;
+  padding: 1.25rem 2.188rem;
+  font-size: var(--font-size-h4);
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

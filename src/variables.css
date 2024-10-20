@@ -1,0 +1,14 @@
+:root {
+  --primary-color: #b9ff66;
+  --secondary-color: #191a23;
+  --tertiary-color: #f3f3f3;
+
+  --font-size-h1: 3.75rem;
+  --font-size-h2: 2.5rem;
+  --font-size-h3: 1.875rem;
+  --font-size-h4: 1.25rem;
+  --font-size-h5: 1.125rem;
+
+  --font-weight-light: 400;
+  --font-weight-regular: 500;
+}

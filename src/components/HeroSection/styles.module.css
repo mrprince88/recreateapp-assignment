@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 4.375rem;
+  padding: 2rem 0;
+  flex-wrap: wrap;
+
+  @media (max-width: 768px) {
+    img {
+      max-width: 400px;
+    }
+  }
+}
+
+.heroTitle {
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-regular);
+}
+
+.heroSubtitle {
+  font-size: var(--font-size-h4);
+  font-weight: var(--font-weight-light);
+}
+
+.companies {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.5rem;
+  padding: 2rem 0;
+  flex-wrap: wrap;
+
+  > img {
+    filter: grayscale(100%);
+  }
+}
+
+.heroImageContainer {
+  flex: 1 1 50%;
+}
+
+.textSection {
+  flex: 1 1 50%;
+}
